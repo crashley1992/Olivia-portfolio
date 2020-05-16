@@ -3,6 +3,7 @@ body {
    background-image: linear-gradient(to bottom right, #0A2C48, #024059, #599B93);
    background-repeat: no-repeat;
    color: #F5F5F5;
+   font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .navbar {
@@ -11,10 +12,22 @@ body {
 
 .navbar-brand {
     color: #F5F5F5 !important;
+    font-weight: bold;
 }
 
 .nav-link {
     color: #F5F5F5 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-link {
+        margin-left: 1%;
+    }
+}
+
+.nav-link:hover {
+    color: lightgrey !important;
+    border-bottom: lightgrey solid 2px;
 }
 
 .navbar-toggler {
@@ -36,6 +49,12 @@ body {
 }
 
 /* Styling for animation reel  */
+#animation-reel-container {
+    text-align: center;
+    width: 90%;
+}
+
+
 #animation-reel-container  > video {
     text-align: center;
     border-top: #599B93 3px solid;
@@ -47,7 +66,6 @@ body {
 #space-image-container {
     width: 100%;
     height: 500px;
-    border: solid black 2px;
     margin-top: 8%;
 }
 
@@ -64,7 +82,7 @@ body {
 }
 
 #about-me {
-    width: 350px;
+    width: 80%;
     height: 350px;
     margin: 0 auto;
     margin-top: 5%;
@@ -91,10 +109,17 @@ body {
     margin-top: 5%;
 }
 
+@media only screen and (max-width: 600px) {
+    .feature-gallery > a > img {
+        width: 80%;
+    }
+}
+
 #animation-gallery {
     /* border: solid white 2px; */
     text-align: center;
     margin-top: 8%;
+    width: 90%;
 }
 
 #animation-gallery > h1 {
@@ -107,6 +132,12 @@ body {
 .animation-pop-up {
     margin-top: 5%;
     display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .animation-pop-up > img {
+        width: 80%;
+    }
 }
 
 #other-work {
