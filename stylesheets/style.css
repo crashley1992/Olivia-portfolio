@@ -84,7 +84,7 @@ body {
 
 .feature-gallery  {
     display: inline-block;
-    border: black solid 2px;
+    /* border: black solid 2px; */
     height: 350px;
     width: 350px;
     margin-left: 3%;
@@ -92,7 +92,7 @@ body {
 }
 
 #animation-gallery {
-    border: solid white 2px;
+    /* border: solid white 2px; */
     text-align: center;
     margin-top: 8%;
 }
@@ -107,6 +107,18 @@ body {
 .animation-pop-up {
     margin-top: 5%;
     display: inline-block;
+}
+
+#other-work {
+    text-align: center;
+    margin-top: 8%;
+}
+
+#other-work > h1 {
+    border-bottom: #599B93 3px solid;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 5%;
 }
   
 
