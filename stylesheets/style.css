@@ -38,13 +38,40 @@
 }
 
 #featured-art-container {
-    border: solid black 2px;
     margin-top: 8%;
     text-align: center;
 }
 
-#feature-art {
-    width: 350px;
-    height: 350px;
+#featured-art-container > h1 {
+    border-bottom: #599B93 3px solid;
+    width: 80%;
     margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+.feature-gallery  {
+    display: inline-block;
+    border: black solid 2px;
+    height: 350px;
+    width: 350px;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+#animation-container {
+    margin: 0 auto;
+    margin-top: 5%;
+    border: black solid 2px;
+    text-align: center;
+}
+
+#animation-container > h1 {
+    border-bottom: #599B93 3px solid;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+.animation-gallery {
+    display: inline-block;
 }
