@@ -1,6 +1,39 @@
+body {
+   background-color: #599B93;
+   background-image: linear-gradient(to bottom right, #0A2C48, #024059, #599B93);
+   background-repeat: no-repeat;
+   color: #F5F5F5;
+}
 
+.navbar {
+    background-image: linear-gradient(to right, #0A2C48, #024059, #599B93);
+}
 
+.navbar-brand {
+    color: #F5F5F5 !important;
+}
 
+.nav-link {
+    color: #F5F5F5 !important;
+}
+
+.navbar-toggler {
+    border: solid 2px #F5F5F5 !important; 
+}
+
+#intro-video {
+    width: 100%;
+    height: 500px;
+}
+
+#background {
+    background-color: #F5F5F5;
+    margin-bottom: 5%;
+}
+
+#space-image-container {
+    background-image: url('/assets/img/background.jpg');
+}
 
 /* Styling for animation reel  */
 #animation-reel-container  > video {
@@ -58,20 +91,35 @@
     margin-top: 5%;
 }
 
-#animation-container {
-    margin: 0 auto;
-    margin-top: 5%;
-    border: black solid 2px;
+#animation-gallery {
+    border: solid white 2px;
     text-align: center;
+    margin-top: 8%;
 }
 
-#animation-container > h1 {
+#animation-gallery > h1 {
     border-bottom: #599B93 3px solid;
     width: 80%;
     margin: 0 auto;
     padding-bottom: 5%;
 }
 
-.animation-gallery {
+.animation-pop-up {
+    margin-top: 5%;
     display: inline-block;
 }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
