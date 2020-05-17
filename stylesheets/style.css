@@ -24,6 +24,12 @@ body {
     .nav-link {
         margin-left: 1%;
     }
+
+    .nav-link:hover {
+        color: lightgrey !important;
+        border-bottom: lightgrey solid 2px;
+        width: 15%;
+    }
 }
 
 .nav-link:hover {
@@ -45,9 +51,6 @@ body {
     margin-bottom: 5%;
 }
 
-#space-image-container {
-    background-image: url('/assets/img/background.jpg');
-}
 
 /* Styling for animation reel  */
 #animation-reel-container {
@@ -68,6 +71,7 @@ body {
     width: 100%;
     height: 500px;
     margin-top: 8%;
+    background-image: url('../assets/img/background.jpg');
 }
 
 /* About me Styling */
@@ -91,12 +95,6 @@ body {
     margin-top: 5%;
 }
 
-/* Featured Art Styling */
-    .features {
-        border: solid white 2px;
-        width: 100%;
-    }
-
 /* Animation Gallery */
 #animation-gallery {
     /* border: solid white 2px; */
@@ -109,6 +107,7 @@ body {
     border-bottom: #599B93 3px solid;
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 8%;
     padding-bottom: 5%;
 }
 
