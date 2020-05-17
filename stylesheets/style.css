@@ -4,11 +4,11 @@ body {
    background-repeat: no-repeat;
    color: #F5F5F5;
    font-family: 'Open Sans Condensed', sans-serif;
-   width: 100%;
 }
 
 .navbar {
     background-image: linear-gradient(to right, #0A2C48, #024059, #599B93);
+    width: 100% !important;
 }
 
 .navbar-brand {
@@ -90,7 +90,7 @@ body {
 }
 
 #featured-art-container {
-    margin-top: 8%;
+    margin-top: 5%;
     text-align: center;
 }
 

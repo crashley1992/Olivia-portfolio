@@ -14,7 +14,7 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
         <a class="navbar-brand" href="index.html">Olivia Bement</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -50,10 +50,12 @@
 <!-- JUMBOTRON HOLDING OLVIA'S IMAGE AND ANIMATED LOGO  -->
 <!-- ------------------------------------------------------------------------------- -->
 <div class="container-fluid" id="background">
-    <video id="intro-video" autoplay muted>
-        <source src="./assets/mp4/website_animation_logo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-      </video>
+    <div class="row">
+        <video id="intro-video" autoplay muted>
+            <source src="./assets/mp4/website_animation_logo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+    </div>
 </div>
 <!-- ---------------------------------------------------------------------------- -->
 <!--  DIV FOR ANIMAION REEL-->
@@ -83,13 +85,13 @@
 <!------------------------------------------------------------------------------- -->
 <!-- Featured Art -->
 <!------------------------------------------------------------------------------- -->
-<div class="container" id="featured-art-container">
-    <h1>Featured Art</h1>
+<!-- <!-- <div class="container" id="featured-art-container">
+     <h1>Featured Art</h1> 
     <!-- Feature 1 -->
-       <div class="feature-gallery">
+        <div class="feature-gallery">
         <a target="_blank" href="#">
             <img src="./assets/gifs/marshmallow_candle.gif" alt="Cute Flaming Marshmellow Candle">
-          </a>
+          </a> 
         
         <!-- Feature 2 -->
        </div>
@@ -98,7 +100,7 @@
                 <img src="./assets/gifs/marshmallow_candle.gif" alt="Cute Flaming Marshmellow Candle">
               </a>
        </div>
-</div>
+</div> 
 
 <!------------------------------------------------------------------------------- -->
 <!-- Animation gallery -->
@@ -166,9 +168,9 @@
     <section class="quotes-carousel-pips" id="quotes-carousel-pips">
       <ul></ul>
     </section>
-  </section> 
+  </section>  
 
-<!-- <div id="animation-gallery" class="container">
+ <!--<div id="animation-gallery" class="container">
     <h1>Animation Gallery</h1>
     <div class="animation-pop-up">
         <img src="https://img.freepik.com/free-vector/cute-shiba-inu-dog-cartoon-hand-drawn-style_42349-117.jpg?size=338&ext=jpg" class="rounded" alt="...">
@@ -195,7 +197,7 @@
 <!------------------------------------------------------------------------------- -->
 <!-- illustration Gallery -->
 <!------------------------------------------------------------------------------- -->
-<div id="animation-gallery" class="container">
+ <div id="animation-gallery" class="container">
     <h1>Illustration Gallery</h1>
     <div class="animation-pop-up">
         <img src="https://img.freepik.com/free-vector/cute-shiba-inu-dog-cartoon-hand-drawn-style_42349-117.jpg?size=338&ext=jpg" class="rounded" alt="...">
@@ -215,7 +217,7 @@
     <div class="animation-pop-up">
         <img src="./assets/gifs/marshmallow_candle.gif" class="rounded" alt="...">
     </div>
-</div>
+</div> 
 
 
 <!------------------------------------------------------------------------------- -->
@@ -244,12 +246,14 @@
 </div>
 
 <!-- JS, Popper.js, and jQuery for BootStrap -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
 
 <!-- Script -->
 <script src="scripts/script.js"></script>
