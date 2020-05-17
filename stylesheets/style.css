@@ -70,6 +70,8 @@ body {
     margin-top: 8%;
 }
 
+/* About me Styling */
+
 #about-me-container {
     margin-top: 3%;
     text-align: center;
@@ -89,33 +91,13 @@ body {
     margin-top: 5%;
 }
 
-#featured-art-container {
-    margin-top: 5%;
-    text-align: center;
-}
-
-#featured-art-container > h1 {
-    border-bottom: #599B93 3px solid;
-    width: 80%;
-    margin: 0 auto;
-    padding-bottom: 5%;
-}
-
-.feature-gallery  {
-    display: inline-block;
-    /* border: black solid 2px; */
-    height: 350px;
-    width: 350px;
-    margin-left: 3%;
-    margin-top: 5%;
-}
-
-@media only screen and (max-width: 600px) {
-    .feature-gallery > a > img {
-        width: 80%;
+/* Featured Art Styling */
+    .features {
+        border: solid white 2px;
+        width: 100%;
     }
-}
 
+/* Animation Gallery */
 #animation-gallery {
     /* border: solid white 2px; */
     text-align: center;
