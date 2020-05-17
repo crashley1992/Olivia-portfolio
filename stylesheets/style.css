@@ -4,6 +4,7 @@ body {
    background-repeat: no-repeat;
    color: #F5F5F5;
    font-family: 'Open Sans Condensed', sans-serif;
+   width: 100%;
 }
 
 .navbar {
